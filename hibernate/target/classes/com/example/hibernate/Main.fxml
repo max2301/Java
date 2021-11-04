@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="MainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="360.0" prefWidth="720.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hibernate.MainController">
+   <children>
+      <Button fx:id="showBtn" layoutX="38.0" layoutY="37.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="121.0" text="Просмотр">
+         <font>
+            <Font name="Times New Roman" size="16.0" />
+         </font>
+      </Button>
+      <TableView fx:id="showTable" layoutX="174.0" layoutY="37.0" prefHeight="256.0" prefWidth="507.0">
+         <columns>
+            <TableColumn fx:id="colId" prefWidth="33.60003662109375" text="id" />
+            <TableColumn fx:id="colBrand" prefWidth="118.39996337890625" text="Марка" />
+            <TableColumn fx:id="colModel" prefWidth="116.79998779296875" text="Модель" />
+            <TableColumn fx:id="colPower" prefWidth="79.20001220703125" text="Мощность" />
+            <TableColumn fx:id="colMileage" prefWidth="77.60003662109375" text="Пробег" />
+            <TableColumn fx:id="colYear" prefWidth="63.20013427734375" text="Год" />
+         </columns>
+      </TableView>
+      <Button fx:id="addWindow" layoutX="39.0" layoutY="80.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="121.0" text="Добавить">
+         <font>
+            <Font name="Times New Roman" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="delBtn" layoutX="41.0" layoutY="165.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="121.0" text="Удалить">
+         <font>
+            <Font name="Times New Roman" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="editWindow" layoutX="41.0" layoutY="122.0" mnemonicParsing="false" text="Редактировать">
+         <font>
+            <Font name="Times New Roman" size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
