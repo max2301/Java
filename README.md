@@ -1,5 +1,5 @@
 # Java
-<h1>hibernate<h1>
+<h2>hibernate<h2>
 
 ![image](https://user-images.githubusercontent.com/78970830/140295790-eacf60bc-2f98-412f-8652-48d00c4e9fe0.png)
 ![image](https://user-images.githubusercontent.com/78970830/140295823-36dfcba7-dd00-4090-b116-f415183f730e.png)
