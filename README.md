@@ -1,9 +1,9 @@
 # Java
 <h4>
- hibernate Hibernate, mySql, JavaFX<br>
- №2-3 TCP server, JavaFX<br>
- №4 UDP server, JavaFX<br>
- №5 TCP server, JDBC, MySql, JavaFX<br>
+ hibernate - Hibernate, mySql, JavaFX<br>
+ №2-3 - TCP server, JavaFX<br>
+ №4 - UDP server, JavaFX<br>
+ №5 - TCP server, JDBC, MySql, JavaFX<br>
  <h4>
 <h2>hibernate<h2>
 
